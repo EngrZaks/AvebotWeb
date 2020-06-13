@@ -26,7 +26,6 @@ ul li {
 }
 a {
      text-decoration: none;
-     color: var(--dark-color);
 }
 .section {
      margin-bottom: 50px;
@@ -37,7 +36,7 @@ a {
 .button {
      max-width: 200px;
      border-radius: var(--radius);
-     padding: 10px 25px;
+     padding: 15px;
      transition: 0.5s cubic-bezier(0.86, 0, 0.07, 1);
      box-sizing: border-box;
 }
@@ -86,7 +85,7 @@ a {
      transform: scale(1.1);
      transition: all 0.3s;
 }
-.nav-bar li a {
+.nav-bar ul li a {
      padding: 8px;
      font-size: 30px;
      color: white;
@@ -171,6 +170,7 @@ a {
 .services .button {
      border: 1px solid var(--dark-color);
      background: var(--golden-color);
+     max-width: 300px;
 }
 
 /* portfolio */
@@ -379,7 +379,7 @@ form input::placeholder {
      background-color: black;
      margin: 0;
      width: 100%;
-     padding: 20px;
+     padding: 50px 0;
      margin-bottom: -20px;
      text-align: center;
      font-weight: bold;
@@ -397,9 +397,7 @@ form input::placeholder {
      .close-btn {
           display: none;
      }
-     .nav-items ul * {
-          flex: 1 0 auto;
-     }
+
      .nav-bar .nav-items {
           width: auto;
           height: auto;
@@ -407,18 +405,18 @@ form input::placeholder {
           background: var(--light-color);
           position: absolute;
           /* top: 50%; */
-          left: 5%;
      }
      .nav-items ul {
           display: flex;
           align-items: center;
           align-content: center;
           text-align: center;
+          padding: 0;
      }
      .nav-bar li {
           margin: 0;
      }
-     .nav-bar li a {
+     .nav-bar ul li a {
           padding: 8px;
           font-size: 16px;
           color: var(--dark-color);
