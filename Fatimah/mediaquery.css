@@ -1,0 +1,299 @@
+/*screen betwwen 780px and 480px*/
+@media (max-width:800px) and (min-width:480px){
+    header{
+        height:30px;
+    }
+    header ul li a{
+        font-size: 18px;
+    }
+    .logo{
+        height:50px;
+        width:50px; 
+    }
+
+    /*top-header*/
+    .top-img{
+        padding:70px 40px;
+    }
+    .top-img h1{
+        font-size: 55px;
+    }
+    .top-img h3{
+        font-size: 30px;
+    }
+    .top-header-learn-more{
+        border-radius: 30px;
+        padding: 5px 20px;
+        font-size: 18px;
+    }
+    
+    /*strategy*/
+    .strategy{
+        margin:15px auto;
+        padding:40px;
+    }
+    .strategy h4{
+        font-size: 30px;
+    }
+    .strategy div div h5{
+        font-size: 20px;
+    }
+    .strategy div div p{
+        font-size: 20px;
+    }
+    .service{
+        padding:5px 25px;
+        font-size: 18px;
+    }
+    
+    /*project portfolio*/
+    .project-portfolio{
+        padding:30px 0;
+    }
+    .project-portfolio h4{
+        font-size: 32px;
+    }
+    .project-portfolio p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .proj-images{
+        height:140px;
+    }
+    .proj2 .view-proj{
+        border-radius: 29px;
+        font-size: 15px;
+        padding:3px 5px;
+    }
+    .proj2 p, .proj2 a{
+        margin-top: 15px;
+    }
+
+
+    /*testimonials*/
+    .testimonial{
+        margin:15px auto;
+        padding:20px 30px;
+    }
+    .testimonial div div p{
+        font-size: 20px;
+    }
+    .testimonial div div h2{
+        font-size: 35px;
+    }
+    .testimonial div div .test-name{
+        font-size: 20px;
+    }
+    .testimonial div div .laund{
+        font-size: 20px;
+    }
+    
+    
+    /*build*/
+    .build{
+        padding:60px 0;
+    }
+    .build p{
+        font-size: 21px;
+    }
+    .build h3{
+        font-size: 39px;
+        padding-bottom: 10px;
+    }
+    .get-in-touch{
+        padding:5px 20px;
+        font-size: 20px;
+    }
+    .get-in-touch-arrow{
+        padding:3px 5px;
+        margin-left: 10px;
+    }
+    
+    /*first footer*/
+    .footer-1{
+        padding: 15px 0;
+    }
+    .col-vr{
+        padding: 20px 15px;
+    }
+    .footer-h{
+        font-size: 20px;
+    }
+    .footer-p{
+        font-size: 14px;
+    }
+    .col-vr-2{
+        margin-left: 10px;
+    }
+    .col-vr-2 i{
+        margin:5px 0;
+        font-size: 20px;
+    }
+    .subscribe{
+        margin-top:70px;
+    }
+    .subscribe input{
+        padding: 5px;
+    }
+    .footer-2{
+        padding:10px 0;
+    }
+    .footer-2 a{  
+        padding: 10px;
+    }
+    .footer-2 a i{
+        padding:3px;
+        font-size: 15px;
+    }
+    .footer-3{
+        padding:15px 0;
+    }
+    .footer-3 p{
+        font-size: 24px;
+    }
+}
+/*screen kess than 460px*/
+@media(max-width:460px){
+    header{
+        height:30px;
+    }
+    header ul li a{
+        font-size: 18px;
+    }
+    .logo{
+        height:50px;
+        width:50px; 
+    }
+
+    /*top-header*/
+    .top-img{
+        padding:70px 20px;
+    }
+    .top-img h1{
+        font-size: 35px;
+    }
+    .top-img h3{
+        font-size: 25px;
+    }
+    .top-header-learn-more{
+        border-radius: 25px;
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    
+    /*strategy*/
+    .strategy{
+        margin:10px auto;
+        padding:35px;
+    }
+    .strategy h4{
+        font-size: 24px;
+    }
+    .strategy div div h5{
+        font-size: 18px;
+    }
+    .strategy div div p{
+        font-size: 18px;
+    }
+    .service{
+        padding:5px 20px;
+        font-size: 16px;
+    }
+    
+    /*project portfolio*/
+    .project-portfolio{
+        padding:25px 0;
+    }
+    .project-portfolio h4{
+        font-size: 26px;
+    }
+    .project-portfolio p{
+        font-size: 16px;
+    }
+    .proj2 .view-proj{
+        border-radius: 14px;
+        font-size: 10px;
+    }
+    
+
+
+    /*testimonials*/
+    .testimonial{
+        margin:20px auto;
+        padding:15px 25px;
+    }
+    .testimonial div div p{
+        font-size: 18px;
+    }
+    .testimonial div div h2{
+        font-size: 30px;
+    }
+    .testimonial div div .laund, .testimonial div div .test-name{
+        font-size: 16px;
+    }
+    
+    
+    /*build*/
+    .build{
+        padding:50px 0;
+    }
+    .build p{
+        font-size: 16px;
+    }
+    .build h3{
+        font-size: 30px;
+        padding-bottom: 7px;
+    }
+    .get-in-touch{
+        padding:5px 15px;
+        font-size: 16px;
+    }
+    .get-in-touch-arrow{
+        padding:3px 5px;
+        margin-left: 7px;
+    }
+    
+    /*first footer*/
+    .footer-1{
+        padding: 10px 0;
+    }
+    .col-vr{
+        padding: 15px 10px;
+    }
+    .footer-h{
+        font-size: 18px;
+    }
+    .footer-p{
+        font-size: 12px;
+    }
+    .col-vr-2{
+        margin-left: 8px;
+    }
+    .col-vr-2 i{
+        margin:5px 0;
+        font-size: 15px;
+    }
+    .subscribe{
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    .subscribe input{
+        padding: 5px;
+    }
+    .footer-2{
+        padding:7px 0;
+    }
+    .footer-2 a{  
+        padding: 7px;
+    }
+    .footer-2 a i{
+        padding:3px;
+        font-size: 13px;
+    }
+    .footer-3{
+        padding:13px 0;
+    }
+    .footer-3 p{
+        font-size: 20px;
+    }
+}
