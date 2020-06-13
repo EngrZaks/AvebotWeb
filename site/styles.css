@@ -335,8 +335,11 @@ a {
 .footer .contact .images {
      display: flex;
 }
+
 .footer .contact .images img {
      margin: 10px;
+     background: black;
+     color: white;
 }
 .footer .subscribe form input {
      padding: 10px;
@@ -365,7 +368,7 @@ form input::placeholder {
 }
 .social-wrapper .social-image {
      background: var(--brown);
-     padding: 5px 8px;
+     padding: 8px 10px;
      margin: 0 5px;
 }
 .social-wrapper .social-images {
