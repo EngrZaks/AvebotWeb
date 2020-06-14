@@ -1,0 +1,309 @@
+.container{
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px;
+	grid-template-rows: 300px 300px;
+}
+/* Styling for the Nav-bar*/
+#Rect1{
+display: inline-grid;	
+position: absolute;
+width: 1440px;
+height: 110px;
+left: calc(50% - 1440px/2);
+top: 0px;
+background: #FFFFFF;
+}
+
+.Home{
+display: inline-grid;
+position: absolute;
+width: 65px;
+height: 28px;
+left: calc(50% - 65px/2 - 544.5px);
+top: 36px;
+font-family: Nyala;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #201E1E;
+}
+
+.About{
+display: inline-grid;
+position: absolute;
+width: 99px;
+height: 28px;
+left: calc(50% - 99px/2 - 415.5px);
+top: 36px;
+font-family: Nyala;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #EEBA5E;
+}
+
+.Product{
+display: inline-grid;
+position: absolute;
+width: 204px;
+height: 28px;
+left: calc(50% - 204px/2 - 217px);
+top: 36px;
+font-family: Nyala;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #201E1E;
+}
+
+.Logo>img{
+display: inline-grid;
+position: absolute;
+width: 100px;
+height: 100px;
+left: calc(50% - 118px/2 - 9px);
+top: -5px;
+background: url(Avebot logo png.png), #FFFFFF;
+}
+
+.Portfolio{
+display: inline-grid;
+position: absolute;
+width: 107px;
+height: 28px;
+left: calc(50% - 107px/2 + 150.5px);
+top: 36px;
+font-family: Nyala;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #201E1E;
+}
+
+.LearningCenter{
+display: inline-grid;
+position: absolute;
+width: 171px;
+height: 28px;
+left: calc(50% - 171px/2 + 336.5px);
+top: 36px;
+font-family: Nyala;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #201E1E;
+}
+
+.Contact{
+display: inline-grid;
+position: absolute;
+width: 119px;
+height: 28px;
+left: calc(50% - 119px/2 + 528.5px);
+top: 36px;
+font-family: Nyala;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #201E1E;
+}
+/*Nav-Bar Styling Ends*/
+
+/*Styling of Rectangle1 Div and it's content*/
+#Rectangle1{
+position: absolute;
+width: 1261px;
+height: 559px;
+left: 89px;
+top: 111px;
+background: linear-gradient(0deg, rgba(32, 30, 30, 0.92), rgba(32, 30, 30, 0.92)), url(ABOUT.png);
+}
+
+.logo2>img{
+position: absolute;
+width: 418.82px;
+height: 443px;
+left: 31px;
+top: 71px;
+background: url(Avebot logo png 2.png);
+}
+.content1{
+position: absolute;
+width: 778px;
+height: 210px;
+left: 461px;
+top: 155px;
+font-family: Nyala;
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 49px;
+text-align: center;
+color: #F1AC33;
+}
+
+button{
+position: absolute;
+width: 241px;
+height: 60px;
+left: 710px;
+top: 398px;
+border: 2px solid #F1AC33;
+box-sizing: border-box;
+border-radius: 39px;
+background-color: rgb(32, 30, 30);
+color: #F1AC33
+font-style: normal;
+font-size: 40px;
+line-height: 33px;
+color: #F1AC33;
+font-family: Nyala;
+}
+/*Rectangle 1 Div's Styling ends*/
+
+#Rectangle2{
+position: absolute;
+width: 1261px;
+height: 559px;
+left: 89px;
+top: 703px;
+background: linear-gradient(0deg, rgba(234, 234, 234, 0.97), rgba(234, 234, 234, 0.97)), url(ABOUT.png);
+}
+
+#Rectangle3{
+position: absolute;
+width: 1262px;
+height: 642px;
+left: 89px;
+top: 1454px;
+background: linear-gradient(0deg, rgba(241, 172, 51, 0.8), rgba(241, 172, 51, 0.8)), url(rect3.png);
+}
+#Rectangle5{
+position: absolute;
+width: 1262px;
+height: 481px;
+left: 90px;
+top: 2129px;
+background: #EAEAEA;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#Rectangle6{
+position: absolute;
+width: 1262px;
+height: 578px;
+left: 0px;
+top: 2645px;
+background: linear-gradient(0deg, rgba(32, 30, 30, 0.84), rgba(32, 30, 30, 0.84)), url(Rectangle6.png);
+}
+#footer{
+position: absolute;
+width: 1440px;
+height: 322px;
+left: -4px;
+top: 3248px;
+background: #FFFFFF;
+}
+
+.footer-logo>img{
+position: absolute;
+width: 207px;
+height: 209px;
+left: calc(50% - 207px/2 - 505.5px);
+background: #FFFFFF;
+}
+
+/* Facebook F */
+
+.icons{
+position: absolute;
+width: 30px;
+height: 30px;
+left: 120px;
+top: 250px;
+}
+
+/* Home About Us Products & Services Portfolios Learning center Contact Us */
+.footer-content1{
+position: absolute;
+width: 177px;
+height: 228px;
+left: 552px;
+top: 20px;
+
+font-family: Nyala;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 100%;
+/* or 38px */
+letter-spacing: 0.05em;
+color: #201E1E;
+}
+
+/* Blog Customer Reviews Executive Team Careers */
+.footer-content2{
+position: absolute;
+width: 163px;
+height: 152px;
+left: 860px;
+top: 10px;
+font-family: Nyala;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 212%;
+/* or 38px */
+letter-spacing: 0.05em;
+color: #201E1E;
+}
+
+/* Get a Quote Subscribe to Blog */
+.footer-content3{
+position: absolute;
+width: 155px;
+height: 76px;
+left: 1154px;
+top: 10px;
+font-family: Nyala;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 212%;
+/* or 38px */
+letter-spacing: 0.05em;
+color: #201E1E;
+}
+
+.The-Avebot{
+position: absolute;
+width: 201px;
+height: 23px;
+left: calc(50% - 201px/2 + 488.5px);
+bottom: 47px;
+font-family: Nyala;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 137.6%;
+/* or 23px */
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #201E1E;
+}
+
+/* Copyright */
+.copyright>img{
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2 + 376px);
+bottom: 32px;
+background: url(.png);
+}
