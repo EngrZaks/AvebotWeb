@@ -1,0 +1,80 @@
+.header {
+     background: var(--golden-color) url(../files/contactback.svg) no-repeat;
+     background-size: cover;
+}
+.header .hero-text {
+     color: white;
+}
+.contactUs {
+     display: flex;
+     flex-flow: row wrap;
+     align-content: center;
+     /* align-items: center; */
+     width: 100%;
+     max-width: 1000px;
+     margin: 0 auto;
+}
+.contactUs .contact,
+.contactUs .map {
+     flex: 1 1 auto;
+}
+.contactUs .contact {
+     width: 300px;
+     background: var(--pink);
+}
+.contactUs .map {
+     display: none;
+     width: 300px;
+     flex: 1;
+}
+.contactUs .map img {
+     width: 100%;
+}
+.contactUs form {
+     display: flex;
+     flex-flow: row wrap;
+     padding: 10px;
+     flex: 2;
+}
+.contactUs form * {
+     flex: 1 1 auto;
+     margin: 10px;
+     border: none;
+}
+.contactUs input[type="text"],
+input[type="email"] {
+     width: 40%;
+     height: 50px;
+     font-size: 1.2rem;
+}
+.contactUs input[type="email"] {
+     width: 100%;
+}
+.contactUs input {
+     transition: all 0.5s cubic-bezier(0.79, 0.14, 0.15, 0.86);
+}
+.contactUs input[type="text"]:focus {
+     width: 50%;
+     border-bottom: 4px solid var(--golden-color);
+}
+.contactUs input[type="email"]:focus {
+     border-bottom: 4px solid var(--golden-color);
+}
+textarea {
+     width: 100%;
+     font-family: Roboto;
+     font-size: 1.2rem;
+}
+.contactUs .button {
+     background: var(--golden-color);
+     width: 200px;
+     flex-grow: 0;
+     margin-left: auto;
+     margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+     .contactUs .map {
+          display: block;
+     }
+}

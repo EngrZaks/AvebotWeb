@@ -7,7 +7,7 @@
                content="width=device-width, initial-scale=1.0"
           />
           <title>AveBot Innovation</title>
-          <link rel="stylesheet" href="styles.css" />
+          <link rel="stylesheet" href="styles/styles.css" />
           <link
                href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
                rel="stylesheet"
@@ -19,12 +19,15 @@
                <div class="nav-items">
                     <a href="javascript:void(0)" class="close-btn">&times;</a>
                     <ul>
-                         <li><a class="active" href="#"> Home </a></li>
-                         <li><a href="#"> About Us </a></li>
-                         <li><a href="#"> Products & Services </a></li>
-                         <li><a href="#"> Portfolios </a></li>
+                         <li><a class="active" href="index.html"> Home </a></li>
+                         <li><a href="about.html"> About Us </a></li>
+                         <li>
+                              <a href="Products.html"> Products & Services </a>
+                         </li>
+                         <li><a href="portfolio.html"> Portfolios </a></li>
                          <li><a href="#"> Learning Center </a></li>
-                         <li><a href="#"> Contact Us </a></li>
+                         <li><a href="contact.html"> Contact Us </a></li>
+                         <span class="button">START A PROJECT</span>
                     </ul>
                </div>
                <img src="files/btn- menu.svg" alt="" class="nav-btn" />
@@ -81,27 +84,114 @@
                <div class="illustrate-wrapper">
                     <div class="illustrate illustrate1"></div>
                     <div class="illustrate illustrate2">
-                         <p class="wordpress">
-                              WordPress Multisite website development
-                         </p>
-                         <div class="button">VIEW PROJECT</div>
+                         <div class="content">
+                              <p class="wordpress">
+                                   WordPress Multisite website development
+                              </p>
+                              <div class="button">VIEW PROJECT</div>
+                         </div>
                     </div>
                     <div class="illustrate illustrate3"></div>
                </div>
           </div>
 
           <div class="testimonial section">
-               <h2 class="heading">TESTIMONIALS</h2>
-               <div class="content-wrapper">
-                    <p class="content">
-                         Focused on building a lasting partnership, Avebot have
-                         taken great care of us. An enthusiastic team of
-                         individuals who listened to our needs and gave us a
-                         site to be proud of.
-                    </p>
-                    <div class="author">
-                         <p class="name">Animashaun Kamil</p>
-                         <p class="profession">Laundry service Manager</p>
+               <div class="testimonialWrapper">
+                    <h2 class="heading">TESTIMONIALS</h2>
+                    <div class="content-wrapper">
+                         <div style="text-align: center;">
+                              <span
+                                   class="dot"
+                                   onclick="currentSlide(1)"
+                              ></span>
+                              <span
+                                   class="dot"
+                                   onclick="currentSlide(2)"
+                              ></span>
+                              <span
+                                   class="dot"
+                                   onclick="currentSlide(3)"
+                              ></span>
+                              <span
+                                   class="dot"
+                                   onclick="currentSlide(4)"
+                              ></span>
+                              <span
+                                   class="dot"
+                                   onclick="currentSlide(5)"
+                              ></span>
+                         </div>
+                         <div class="mySlides fade">
+                              <p class="content">
+                                   " Focused on building a lasting partnership,
+                                   Avebot have taken great care of us. An
+                                   enthusiastic team of individuals who listened
+                                   to our needs and gave us a site to be proud
+                                   of."
+                              </p>
+                              <div class="author">
+                                   <p class="name">Animashaun Kamil</p>
+                                   <p class="profession">
+                                        Laundry service Manager
+                                   </p>
+                              </div>
+                         </div>
+                         <div class="mySlides fade">
+                              <p class="content">
+                                   " Since the start of my career as an
+                                   Accountant, AveBot have been helping me with
+                                   all the tactical nous and to render all the
+                                   technical sophistication that i need to
+                                   succeed in the 21st Century"
+                              </p>
+                              <div class="author">
+                                   <p class="name">Mohammed Bashir</p>
+                                   <p class="profession">
+                                        Office of the Accountant General
+                                   </p>
+                              </div>
+                         </div>
+                         <div class="mySlides fade">
+                              <p class="content">
+                                   “I highly recommend Avebot... genuine web
+                                   professionals who know their job. They
+                                   supplied a turnkey solution that corresponded
+                                   perfectly with our brief.”
+                              </p>
+                              <div class="author">
+                                   <p class="name">Animashaun Kamil</p>
+                                   <p class="profession">
+                                        Laundry service Manager
+                                   </p>
+                              </div>
+                         </div>
+                         <div class="mySlides fade">
+                              <p class="content">
+                                   “Thank you for your professionalism and your
+                                   helpful advice. This website project was a
+                                   very satisfactory experience and I would not
+                                   hesitate to recommend Avebot."
+                              </p>
+                              <div class="author">
+                                   <p class="name">Muslim Bilal</p>
+                                   <p class="profession">
+                                        Laundry service Manager
+                                   </p>
+                              </div>
+                         </div>
+                         <div class="mySlides fade">
+                              <p class="content">
+                                   “Great experience, second time working with
+                                   Avebot. Greatly improved from first time i
+                                   worked with them.”
+                              </p>
+                              <div class="author">
+                                   <p class="name">Animashaun Kamil</p>
+                                   <p class="profession">
+                                        Laundry service Manager
+                                   </p>
+                              </div>
+                         </div>
                     </div>
                </div>
           </div>
@@ -117,38 +207,41 @@
           <div class="footer section">
                <div class="content-wrapper">
                     <div class="content content1">
-                         <h4 class="heading">About</h4>
-                         <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Nunc eleifend lacus mauris egestas
-                              parturient. Cursus amet, est aliquam, egestas
-                              enim. Eu mattis.
-                         </p>
+                         <h4 class="heading">Company</h4>
+                         <ul>
+                              <li><a href="about.html"> About Us </a></li>
+                              <li>
+                                   <a href="Products.html">
+                                        Products & Services
+                                   </a>
+                              </li>
+                              <li><a href="portfolio.html"> Portfolios </a></li>
+                              <li><a href="#"> Learning Center </a></li>
+                              <li><a href="contact.html"> Contact Us </a></li>
+                         </ul>
                     </div>
                     <div class="content content2">
-                         <h4 class="heading">FAQ</h4>
-                         <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Impedit repudiandae ipsam maxime numquam
-                              harum facilis alias expedita est omnis deleniti
-                              deserunt reprehenderit laudantium consequatur,
-                              laborum at assumenda. Voluptatem, voluptate
-                              aspernatur?
-                         </p>
+                         <h4 class="heading">Services</h4>
+                         <ul>
+                              <li><a href=""> Web Design</a></li>
+                              <li><a href=""> Web Development</a></li>
+                              <li><a href="#"> Digital Marketing </a></li>
+                              <li><a href="#"> Photography </a></li>
+                              <li><a href="#"> Content Writing </a></li>
+                         </ul>
                     </div>
                     <div class="content content3">
-                         <h4 class="heading">LATEST UPDATES</h4>
-                         <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Maxime, ad repellat commodi non, alias qui
-                              at tenetur sed fugiat quisquam fugit dolor
-                              provident sit consequuntur doloribus molestiae
-                              autem iure dignissimos!
-                         </p>
+                         <h4 class="heading">Latest Updates</h4>
+                         <ul>
+                              <li><a href=""> Blog </a></li>
+                              <li><a href=""> Customers Reviews </a></li>
+                              <li><a href="#"> Executive Team</a></li>
+                              <li><a href="#"> Training </a></li>
+                              <li><a href="#"> </a></li>
+                         </ul>
                     </div>
-                    <div class="line"></div>
                     <div class="content contact">
-                         <h4 class="heading">Contact Us</h4>
+                         <h4 class="heading">CONTACT US</h4>
                          <div class="images">
                               <img src="files/location.svg" alt="location" />
                               <img src="files/mail.svg" alt="mail" />
@@ -192,7 +285,6 @@
                </div>
           </div>
 
-          <script src="scripts.js"></script>
+          <script src="scripts/scripts.js"></script>
      </body>
-     .
 </html>

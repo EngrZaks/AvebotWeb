@@ -1,0 +1,164 @@
+.header {
+     background: var(--ash) url(../files/aboutback.svg) no-repeat;
+     position: relative;
+     background-size: contain;
+}
+.header .hero-text {
+     color: var(--dark-color);
+     text-align: left;
+     font-size: 1.2rem;
+     max-width: 500px;
+     line-height: 30px;
+}
+.header .button {
+     background: none;
+     color: var(--dark-color);
+     border-color: var(--dark-color);
+     margin-top: 15px;
+}
+.header img {
+     height: 100px;
+}
+
+.statements {
+     height: 300px;
+     background: var(--ash);
+     display: block;
+     text-align: center;
+     font-size: 1.2rem;
+     font-weight: bolder;
+}
+.statements .content-wrapper {
+     max-width: 500px;
+     margin: 0 auto;
+}
+.statements .mySlides {
+     display: block;
+}
+.statements .values p {
+     color: var(--golden-color);
+}
+.statements .mission h2 {
+     color: var(--golden-color);
+}
+.statements .vision p {
+     color: var(--golden-color);
+}
+
+.build {
+     background: url(../files/buildback.svg) no-repeat;
+     background-size: cover;
+     color: var(--light-color);
+     flex-flow: column;
+     align-items: center;
+     text-align: center;
+}
+.build h2,
+.build p {
+     font-weight: bolder;
+     max-width: 450px;
+}
+.build .button {
+     background: var(--golden-color);
+}
+
+.why {
+     flex-flow: column;
+     align-items: center;
+     background: url(../files/whyback.svg) no-repeat;
+     background-size: cover;
+}
+.why .content {
+     display: flex;
+     flex-flow: row wrap;
+}
+.why .content .parag {
+     font-size: 1.2rem;
+}
+.why .content .heading {
+     font-size: 1.3rem;
+}
+.why .button {
+     background-color: var(--golden-color);
+}
+
+.teams {
+     flex-flow: column;
+     align-items: center;
+}
+.teams .ourTeam {
+     display: flex;
+     flex-flow: row wrap;
+}
+.teams .ourTeam img {
+     width: 150px;
+}
+.footer {
+     margin-top: -50px;
+}
+
+@media only screen and (min-width: 768px) {
+     .header {
+          height: 400px;
+     }
+     .header .hero-text {
+          position: absolute;
+          left: 40px;
+          top: 100px;
+          font-size: 1.5rem;
+          line-height: 40px;
+     }
+     .header img {
+          position: absolute;
+          right: 50px;
+          top: 100px;
+          height: 200px;
+     }
+     .header .button {
+          position: absolute;
+          bottom: 70px;
+          left: 25%;
+     }
+     .statements {
+          height: 350px;
+          font-size: 1.5rem;
+     }
+     .build h2,
+     .build p {
+          font-size: 1.3rem;
+     }
+
+     .why .content .parag {
+          width: 40%;
+          font-weight: bold;
+          font-size: 30px;
+          color: var(--golden-color);
+          padding: 10px;
+     }
+     .why .content .heading {
+          width: 50%;
+          text-align: right;
+          font-weight: bold;
+          font-size: 40px;
+          line-height: 30px;
+     }
+}
+
+@media only screen and (min-width: 992px) {
+     .header {
+          height: 500px;
+     }
+     .header .hero-text {
+          left: 200px;
+     }
+     .header img {
+          right: 100px;
+          height: 300px;
+     }
+     .header .button {
+          bottom: 115px;
+     }
+     .why {
+          height: 450px;
+     }
+}
