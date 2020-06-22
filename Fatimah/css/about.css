@@ -1,0 +1,29 @@
+.values{
+    padding:100px 0;
+    background: #EAEAEA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.values-text h3{
+    color:#F1AC33;
+}
+
+
+/*brands*/
+.brands{
+    height:400px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    font-size:80px;
+    height:100%;
+    width: 85%;
+}
+
+/*client*/
+.client-1, .client-2, .client-3{
+    width:80%;
+    height: 80px;
+}
+.client-1{
+    background-image: url('images/client-1.png');
+    height:100px;
+}
