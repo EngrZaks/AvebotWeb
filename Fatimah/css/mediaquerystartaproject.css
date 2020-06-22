@@ -32,13 +32,13 @@
         width:90%;
     }
     .start-a-proj-form h4{
-        font-size: 30px;
+        font-size: 26px;
     }
     .start-a-proj-form p{
-        font-size: 22px;
+        font-size: 20px;
     }
     .start-a-proj-form input, select{
-        font-size: 22px;
+        font-size: 18px;
         margin:8px 0px;
     }
     .start-a-proj-form input, select, option{
@@ -46,7 +46,7 @@
         height:50px;
     }
     label{
-        font-size: 22px;
+        font-size: 18px;
     }
     .label-begin{
         margin-top:100px;
@@ -54,7 +54,7 @@
     
     /*clients*/
     .client-feedback{
-        margin-top:650px;
+        margin-top:750px;
     }
     .client-heading{
         font-size: 30px;
@@ -73,7 +73,7 @@
 }
 
 
-@media (max-width:649px) and (min-width:360px){
+@media (max-width:649px) and (min-width:420px){
     /*top*/
     .start-a-proj-top{
         flex-direction: column;
@@ -143,3 +143,76 @@
         margin-bottom: 50px;
     }
 }
+
+
+@media (max-width:380px){
+    /*top*/
+    .start-a-proj-top{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .start-a-proj-top-left{
+        margin-top: 95px;
+    }
+    .start-a-proj-top-left h3{
+        font-size: 32px;
+    }
+    .start-a-proj-top-left img{
+        width:220px;
+        margin-top:60px;
+    }
+    .start-a-proj-top-left h4{
+        margin-top:100px;
+    }
+    .start-a-proj-top-left ul li{
+        font-size: 18px;
+        color:#fff;
+    }
+
+    /*form*/
+    .start-a-proj-form{
+        padding:10px;
+        width:97%;
+        margin-top:-100px;
+    }
+    .start-a-proj-form h4{
+        font-size: 26px;
+    }
+    .start-a-proj-form p{
+        font-size: 20px;
+    }
+    .start-a-proj-form input, select{
+        font-size: 20px;
+        margin:7px 0px;
+    }
+    .start-a-proj-form input, select, option{
+        padding:7px;
+        height:45px;
+    }
+    label{
+        font-size: 20px;
+    }
+    .label-begin{
+        margin-top:90px;
+    }
+    
+    /*clients*/
+    .client-feedback{
+        margin-top:760px;
+    }
+    .client-heading{
+        font-size: 26px;
+    }
+    .start-proj-text p{
+        font-size: 24px;
+    }
+    .start-proj-text .name{
+        font-size: 22px;
+        margin:18px 0px;
+    }
+    .start-proj-text .company{
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+}
+
