@@ -64,19 +64,14 @@ a{
     margin:10px 0px;
     outline: none;
     border: none;
+    color:#000;
 }
 .start-a-proj-form input, select{
     background: #F2F1EF;
     color: #201E1E;
     padding:10px;
 }
-.start-a-proj-btn{
-    background: #F1AC33;
-    color:#fff;
-    padding:5px 10px;
-    outline: none;
-    border: none;
-}
+
 /*clients*/
 .client-feedback{
     margin:25px 0px;
