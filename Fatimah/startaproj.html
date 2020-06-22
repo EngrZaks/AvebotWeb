@@ -9,20 +9,31 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
         <link rel="stylesheet" href="css/startaproj.css">
+        <link rel="stylesheet" href="css/mediaquerystartaproject.css">
         <title>Start | a | Project</title>
     </head>
+    <style>
+        .carousel-indicators li{
+            background-color: #C4C4C4;
+        }
+        .carousel-indicators li.active{
+            background-color: #F1AC33;
+        }
+    </style>
 <body>
     <!--header-->
     <!--start a project main-->
     <!--start a project top-->
     <div class="start-a-proj-top row">
-        <div class="col">
+        <div class="col start-a-proj-top-left">
+            <div class="mobile-top">
             <h3>We’re Here to Help You</h3>
             <p>Send us a message to learn how we help increase sales
                 and overall brand value via our updated resources, 
                 work tools and positive tested methods.
             </p>
-            <img src="images/apple.png"/><span><img src="images/phone-1.png"/></span>
+            <img src="images/apple.png"/>
+        </div>
             <h4>Here’s what you can expect:</h4>
             <ul>
                 <li>An email and/or phone call directly from a member of our team;</li>
@@ -31,12 +42,12 @@
                 <li>A face to face meeting, if necessary.</li>
             </ul>
         </div>
-        <div class="col">
+        <div class="col start-a-proj-top-right">
             <form action="" method="post" class="start-a-proj-form">
                 <h4>Start A Project</h4>
                 <p>Fill out short form to get started. <br/>Please describe your project:</p>
 
-                <label>When would you like to begin?</label><br/>
+                <label class="label-begin">When would you like to begin?</label><br/>
                 <select>
                     <option>Immediately</option>
                     <option>Immediately</option>
@@ -66,7 +77,7 @@
     <h3 class="text-center client-heading">Clients <span>Feedback</span></h3>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="border-radius: 50%; height:15px; width:15px"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="border-radius: 50%; height:15px; width:15px;"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1" style="border-radius: 50%; height:15px; width:15px"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2" style="border-radius: 50%; height:15px; width:15px"></li>
             </ol>

@@ -21,9 +21,6 @@
 .auto{
     margin: auto;
 }
-li{
-    list-style-type: none;
-}
 a{
     text-decoration: none;
 }
@@ -33,30 +30,76 @@ a{
 .text-right{
     text-align: right;
 }
+
+
+
+/*top*/
 .start-a-proj-top{
     background: #201E1E;
     color:#fff;
+    display: flex;
+    height: 605px;
+}
+.start-a-proj-top-left{
+    margin: auto;
+    padding-left:60px;
+    margin-top: 125px;
+}
+.start-a-proj-top-left h3{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+}
+.start-a-proj-form p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+}
+.start-a-proj-top-left img{
+    width:500px;
+    margin-top:50px;
+}
+.start-a-proj-top-left h4{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    color: #201E1E;
+    margin-top:50px;
+}
+.start-a-proj-top-left ul li{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 159.5%;
+    letter-spacing: 0.02em;
+    color: #201E1E;
 }
 
-.values{
-    padding:100px 0;
-}
-.values-text h3{
-    color:#F1AC33;
-}
 /*form*/
 .start-a-proj-form{
     background: #E3E1DE;
-    padding:30px;
+    padding:20px;
     margin: auto;
     width:90%;
+    top: 125px;
+    position: absolute;
 }
 .start-a-proj-form h4{
     font-size: 36px;
     letter-spacing: 0.02em;
     color: #201E1E;
 }
-.start-a-proj-form p, .start-a-proj-form input, .start-a-proj-form label, select{
+.start-a-proj-form p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #201E1E;
+}
+.start-a-proj-form input, select{
     font-weight: normal;
     font-size: 26px;
     letter-spacing: 0.02em;
@@ -66,15 +109,27 @@ a{
     border: none;
     color:#000;
 }
-.start-a-proj-form input, select{
+.start-a-proj-form input, select, option{
     background: #F2F1EF;
     color: #201E1E;
     padding:10px;
+    height:58px;
+}
+label{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #201E1E;
+}
+.label-begin{
+    margin-top:120px;
 }
 
 /*clients*/
 .client-feedback{
     margin:25px 0px;
+    margin-top:700px;
 }
 .client-heading{
     letter-spacing: 0.03em;
@@ -98,4 +153,5 @@ a{
     color:#F1AC33;
     font-weight: 500;
     font-size: 29px;
+    margin-bottom: 80px;
 }
