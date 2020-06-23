@@ -2,7 +2,6 @@
     /*top*/
     .start-a-proj-top{
         height:450px;
-        width:101.8%;
     }
     .start-a-proj-top-left{
         margin-top: 85px;
@@ -59,7 +58,7 @@
     
     /*clients*/
     .client-feedback{
-        margin-top:600px;
+        margin-top:700px;
     }
     .client-heading{
         font-size: 30px;
@@ -84,7 +83,6 @@
     .start-a-proj-top{
         flex-direction: column;
         height: 900px;
-        width:102.5%;
     }
     .start-a-proj-top-left{
         margin-top: 90px;
@@ -169,7 +167,6 @@
     .start-a-proj-top{
         flex-direction: column;
         height: 1000px;
-        width:103.1%;
     }
     .start-a-proj-top-left{
         margin-top: 95px;
@@ -251,7 +248,6 @@
     .start-a-proj-top{
         flex-direction: column;
         height: 1200px;
-        width:104.6%;
     }
     .start-a-proj-top-left{
         margin-top: 95px;
