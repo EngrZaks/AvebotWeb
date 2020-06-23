@@ -15,8 +15,9 @@
         line-height: 25px;
     }
     .start-a-proj-top-left img{
-        width:400px;
-        margin-top:30px;
+        width:300px;
+        margin-top:80px;
+        padding-left:30px;
     }
     .start-a-proj-top-left h4{
         margin-top:100px;
@@ -104,6 +105,9 @@
     .image-container{
         text-align: center;
     }
+    .phone-1-img{
+        display: none;
+    }
     .start-a-proj-top-left h4{
         margin-top:100px;
         color:#fff;
@@ -180,6 +184,9 @@
     }
     .image-container{
         text-align: center;
+    }
+    .phone-1-img{
+        display: none;
     }
     .start-a-proj-top-left img{
         width:300px;
@@ -261,6 +268,10 @@
     }
     .image-container{
         text-align: center;
+        display: block;
+    }
+    .phone-1-img{
+        display: none;
     }
     .start-a-proj-top-left img{
         width:200px;

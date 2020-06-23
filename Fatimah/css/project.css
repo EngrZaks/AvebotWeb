@@ -41,10 +41,20 @@ body {
     letter-spacing: 0.02em;
     
 }
+.image-container{
+    display: flex;
+}
 .start-a-proj-top-left img{
-    width:500px;
+    width:380px;
     margin-top:50px;
     padding-left:50px;
+}
+.start-a-proj-top-left .phone-1-img{
+    width:150px;
+    margin-top:180px;
+    padding-left:5px;
+    margin-left:-80px;
+    position: absolute;
 }
 .start-a-proj-top-left h4{
     font-weight: 500;
