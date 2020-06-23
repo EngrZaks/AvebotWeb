@@ -1,54 +1,40 @@
-*{
+.nav-bar{
+    background-color: red;
+}
+/* base styles */
+* {
     box-sizing: border-box;
-    margin:0;
-    padding: 0;
-    letter-spacing: 0.03em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
-.container-fluid{
-    width:90%;
-}
-.flex-row{
-    display: flex;
-    flex-direction: row;
-}
-.flex-column{
-    display: flex;
-    flex-direction: column;
-}
-.space-evenly{
-    justify-content: space-evenly;
-}
-.auto{
+body {
+    background: #ffffff;
+    font-family: "Roboto", sans-serif;
     margin: auto;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    transition: all 0.3s;
 }
-a{
-    text-decoration: none;
-}
-.text-center{
-    text-align: center;
-}
-.text-right{
-    text-align: right;
-}
-
-
-
-/*top*/
+/*start a project top*/
 .start-a-proj-top{
     background: #201E1E;
     color:#fff;
     display: flex;
-    height: 605px;
+    width:101.5%;
+    height:500px;
 }
 .start-a-proj-top-left{
     margin: auto;
-    padding-left:60px;
-    margin-top: 125px;
+    margin-top: 105px;
 }
 .start-a-proj-top-left h3{
     font-weight: bold;
     font-size: 45px;
     line-height: 53px;
+    padding-left:50px;
+}
+.start-a-proj-top-left p{
+    padding-left:50px;
 }
 .start-a-proj-form p{
     font-style: normal;
@@ -56,10 +42,12 @@ a{
     font-size: 30px;
     line-height: 35px;
     letter-spacing: 0.02em;
+    
 }
 .start-a-proj-top-left img{
     width:500px;
     margin-top:50px;
+    padding-left:50px;
 }
 .start-a-proj-top-left h4{
     font-weight: 500;
@@ -68,6 +56,10 @@ a{
     letter-spacing: 0.02em;
     color: #201E1E;
     margin-top:50px;
+    padding-left:50px;
+}
+.start-a-proj-top-left ul{
+    padding-left:50px;
 }
 .start-a-proj-top-left ul li{
     font-weight: 300;
@@ -76,6 +68,7 @@ a{
     letter-spacing: 0.02em;
     color: #201E1E;
 }
+
 
 /*form*/
 .start-a-proj-form{
@@ -128,30 +121,30 @@ label{
 
 /*clients*/
 .client-feedback{
-    margin-top:25px;
+    margin-top:700px;
     margin-bottom: 50px;
 }
 .client-heading{
     letter-spacing: 0.03em;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 28px;
 }
 .start-proj-text p{
     color: #201E1E;
     font-weight: 300;
-    font-size: 31px;
+    font-size: 22px;
     margin: auto;
     width:80%;
 }
 .start-proj-text .name{
     color: #201E1E;
     font-weight: 500;
-    font-size: 29px;
+    font-size: 20px;
     margin:20px 0px;
 }
 .start-proj-text .company{
     color:#F1AC33;
     font-weight: 500;
-    font-size: 29px;
+    font-size: 20px;
     margin-bottom: 80px;
 }
