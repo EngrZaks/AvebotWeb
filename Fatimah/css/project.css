@@ -1,0 +1,162 @@
+/* base styles */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body {
+    background: #ffffff;
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    transition: all 0.3s;
+}
+/*start a project top*/
+.start-a-proj-top{
+    background: #201E1E;
+    color:#fff;
+    display: flex;
+    width:101.5%;
+    height:500px;
+}
+.start-a-proj-top-left{
+    margin: auto;
+    margin-top: 105px;
+}
+.start-a-proj-top-left h3{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    padding-left:50px;
+}
+.start-a-proj-top-left p{
+    padding-left:50px;
+}
+.start-a-proj-form p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    
+}
+.image-container{
+    display: flex;
+}
+.start-a-proj-top-left img{
+    width:380px;
+    margin-top:50px;
+    padding-left:50px;
+}
+.start-a-proj-top-left .phone-1-img{
+    width:150px;
+    margin-top:180px;
+    padding-left:5px;
+    margin-left:-80px;
+    position: absolute;
+}
+.start-a-proj-top-left h4{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    color: #201E1E;
+    margin-top:50px;
+    padding-left:50px;
+}
+.start-a-proj-top-left ul{
+    padding-left:50px;
+}
+.start-a-proj-top-left ul li{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 159.5%;
+    letter-spacing: 0.02em;
+    color: #201E1E;
+}
+
+
+/*form*/
+.start-a-proj-form{
+    background: #E3E1DE;
+    padding:20px;
+    margin: auto;
+    width:90%;
+    top: 125px;
+    position: absolute;
+}
+.start-a-proj-form h4{
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    color: #201E1E;
+}
+.start-a-proj-form p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #201E1E;
+}
+.start-a-proj-form input, select{
+    font-weight: normal;
+    font-size: 26px;
+    letter-spacing: 0.02em;
+    width:100%;
+    margin:10px 0px;
+    outline: none;
+    border: none;
+    color:#000;
+}
+.start-a-proj-form input, select, option{
+    background: #F2F1EF;
+    color: #201E1E;
+    padding:10px;
+    height:58px;
+}
+label{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #201E1E;
+}
+.label-begin{
+    margin-top:120px;
+}
+
+/*clients*/
+.client-feedback{
+    margin-top:800px;
+    margin-bottom: 50px;
+}
+.client-heading{
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 28px;
+}
+.start-proj-text p{
+    color: #201E1E;
+    font-weight: 300;
+    font-size: 22px;
+    margin: auto;
+    width:80%;
+}
+.start-proj-text .name{
+    color: #201E1E;
+    font-weight: 500;
+    font-size: 20px;
+    margin:20px 0px;
+}
+.start-proj-text .company{
+    color:#F1AC33;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+
+
+
+

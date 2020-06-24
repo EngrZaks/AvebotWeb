@@ -1,0 +1,577 @@
+/* base styles */
+* {
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+}
+body {
+     background: #ffffff;
+     font-family: "Roboto", sans-serif;
+     margin: auto;
+     font-size: 16px;
+     letter-spacing: 0.04em;
+     transition: all 0.3s;
+}
+
+:root {
+     --dark-color: #201e1e;
+     --golden-color: #f1ac33;
+     --yellow: rgba(241, 172, 51, 0.56);
+     --pink: rgba(255, 206, 49, 0.2);
+     --light-color: #ffffff;
+     --sweet: #ead7d7;
+     --radius: 20px;
+     --ash: rgba(196, 196, 196, 0.36);
+     --brown: rgba(32, 30, 30, 0.88);
+     --shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+ul li {
+     list-style-type: none;
+     list-style: none;
+     list-style-position: unset;
+}
+a {
+     text-decoration: none;
+}
+.section {
+     margin-bottom: 50px;
+     padding: 50px 15px;
+     display: flex;
+     width: 100%;
+}
+.button {
+     border-radius: var(--radius);
+     padding: 15px;
+     transition: 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+     box-sizing: border-box;
+     cursor: pointer;
+}
+.button:hover {
+     transform: scale(1.1);
+}
+.nav-bar .active {
+     color: var(--golden-color);
+}
+/* navigation bar */
+.nav-bar {
+     display: flex;
+     position: sticky;
+     top: 0;
+     background: var(--light-color);
+     z-index: 1;
+}
+.nav-bar .nav-items {
+     width: 100%;
+     height: 0;
+     overflow: hidden;
+     color: white;
+     background: linear-gradient(
+          0deg,
+          rgba(32, 30, 30, 1),
+          rgba(32, 30, 30, 0.9)
+     );
+     transition: 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+     position: fixed;
+     left: 0;
+     top: 0;
+     z-index: 1;
+}
+.close-btn {
+     position: absolute;
+     top: 20px;
+     right: 30px;
+     color: var(--golden-color);
+     font-size: 60px;
+     font-weight: bold;
+     padding: 10px;
+}
+.nav-bar li {
+     margin: 10px 0;
+}
+.nav-bar li:hover {
+     transform: scale(1.1);
+     transition: all 0.3s;
+}
+.nav-bar ul li a {
+     padding: 8px;
+     font-size: 30px;
+     color: white;
+     transition: all 0.3s;
+     transform: scale(1);
+}
+.nav-bar li a:hover {
+     color: var(--golden-color);
+}
+.nav-bar .logo {
+     width: 65px;
+}
+.nav-bar .nav-btn {
+     width: 44px;
+     position: absolute;
+     top: 10px;
+     right: 10px;
+}
+.nav-bar .button {
+     background: var(--golden-color);
+     margin-top: 2px;
+     border-radius: 10px;
+}
+
+/* header hero area */
+.header {
+     position: relative;
+     flex-flow: column;
+     align-content: center;
+     align-items: center;
+     padding: 60px 20px;
+     text-align: center;
+     background: var(--dark-color) url("../files/tech.svg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     transition: all 1s;
+     transform: scale(1.2);
+     /* z-index: -1; */
+}
+.header .hero-text {
+     color: var(--golden-color);
+     font-size: 30px;
+     font-weight: bolder;
+     line-height: 50px;
+}
+.header p {
+     color: var(--light-color);
+     line-height: 20px;
+     font-weight: 250;
+     font-size: 20px;
+     line-height: 26px;
+}
+.header .button {
+     color: var(--golden-color);
+     border: 1px solid var(--golden-color);
+}
+
+/* our services area */
+.services {
+     background: var(--ash);
+     padding: 10px;
+     flex-flow: column;
+     align-content: center;
+     align-items: center;
+     padding: 15px;
+     color: var(--dark-color);
+}
+.services .service-wrapper {
+     display: flex;
+     flex-flow: row wrap;
+}
+.service-wrapper .service-content {
+     flex: 1 0 auto;
+     margin: 10px;
+     padding: 10px;
+     /* width: 100%; */
+     width: 300px;
+     /* box-shadow: var(--shadow); */
+}
+.services img {
+     width: 30px;
+}
+.services .heading {
+     font-weight: bold;
+}
+.services .button {
+     border: 1px solid var(--dark-color);
+     background: var(--golden-color);
+}
+
+/* portfolio */
+.portfolio {
+     background: url("../files/portfolio-bck.svg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     flex-flow: column;
+     align-content: center;
+     align-items: center;
+     text-align: center;
+     color: var(--dark-color);
+     padding: 40px 0;
+}
+.portfolio h2 {
+     font-weight: bold;
+     font-size: 30px;
+     line-height: 50px;
+     letter-spacing: 0.03em;
+     margin-bottom: 0;
+}
+.portfolio .intro {
+     margin-top: 0;
+     color: var(--light-color);
+     font-size: 1.1rem;
+     font-weight: bold;
+     line-height: 25px;
+}
+.portfolio .illustrate-wrapper {
+     display: flex;
+     width: 100%;
+     height: 250px;
+}
+.portfolio .illustrate-wrapper .illustrate {
+     background-repeat: no-repeat;
+}
+.portfolio .illustrate-wrapper .illustrate1 {
+     flex: 1;
+     background: url("../files/illustrate1.svg") no-repeat;
+     background-size: cover;
+}
+.portfolio .illustrate-wrapper .illustrate2 {
+     flex: 2.5;
+     background: url("../files/illustrate2.svg") no-repeat;
+     background-size: cover;
+     color: var(--light-color);
+     position: relative;
+     text-align: left;
+}
+.portfolio .illustrate-wrapper .illustrate2 .content {
+     position: absolute;
+     top: 12%;
+     left: 0;
+}
+.portfolio .illustrate-wrapper .illustrate3 {
+     flex: 1;
+     background: url("../files/illustrate3.svg") no-repeat;
+     background-size: cover;
+}
+.portfolio .illustrate2 .button {
+     border: 1px solid var(--golden-color);
+     width: 150px;
+     padding: 5px;
+     margin: 10px;
+     text-align: center;
+}
+.wordpress {
+     font-weight: 250;
+     font-size: 20px;
+     line-height: 1.2;
+     margin: 30px 10px;
+}
+
+/* testimonial */
+.testimonial {
+     color: #524f4a;
+     flex-flow: column;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     background: #eaeaea url(../files/quote.svg) no-repeat;
+     background-size: 300px;
+     background-position: bottom;
+     box-shadow: var(--shadow);
+     font-weight: bold;
+     margin: 0 auto;
+}
+.testimonial .testimonialWrapper {
+     width: 100%;
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+     align-content: center;
+     margin: auto;
+}
+.testimonial .testimonialWrapper * {
+     margin: 10px;
+}
+/* .testimonial .content-wrapper {
+     max-width: 500px;
+} */
+.testimonial .heading {
+     font-weight: bolder;
+     color: black;
+     font-size: 40px;
+     line-height: 1.2;
+     letter-spacing: 0.03em;
+}
+.testimonial .content-wrapper .author {
+     margin-top: 30px;
+}
+.testimonial .name {
+     color: var(--dark-color);
+     font-weight: bold;
+}
+.testimonial .profession {
+     color: var(--golden-color);
+     font-weight: bold;
+}
+/* slideshow */
+.dot {
+     cursor: pointer;
+     height: 15px;
+     width: 15px;
+     margin: 0 2px;
+     background-color: #bbb;
+     border-radius: 50%;
+     display: inline-block;
+     transition: background-color 0.6s ease;
+}
+.section .active,
+.dot:hover {
+     background-color: var(--golden-color);
+}
+.fade {
+     -webkit-animation-name: fade;
+     -webkit-animation-duration: 1s;
+     animation-name: fade;
+     animation-duration: 1s;
+}
+@-webkit-keyframes fade {
+     from {
+          transform: scale(0.9);
+     }
+     to {
+          transform: scale(1);
+     }
+}
+@keyframes fade {
+     from {
+          transform: scale(0.9);
+     }
+     to {
+          transform: scale(1);
+     }
+}
+
+/* project */
+.project {
+     flex-flow: column;
+     background: url("../files/project.svg") no-repeat;
+     background-size: cover;
+     align-items: center;
+     align-content: center;
+     color: var(--golden-color);
+}
+.project .button {
+     border: 1px solid #ffffff;
+     display: flex;
+     flex-flow: row;
+     align-content: center;
+     align-items: center;
+     max-width: 400px;
+     height: 52px;
+}
+.project .button img {
+     margin-left: 12px;
+}
+.project .h2 {
+     font-weight: bolder;
+}
+
+/* footer section */
+.footer {
+     flex-direction: column;
+     align-items: center;
+     align-content: center;
+     padding: 0;
+     margin: 0;
+     margin-top: -55px;
+     background-color: var(--brown);
+     color: var(--light-color);
+}
+.footer .content-wrapper {
+     background: var(--brown);
+     display: flex;
+     flex-flow: row wrap;
+     width: 100%;
+}
+.footer .content-wrapper .content {
+     flex: 1 1 auto;
+     /* min-width: 100px; */
+     width: 150px;
+     margin: 10px;
+}
+.footer .content-wrapper h4 {
+     color: var(--golden-color);
+     margin-left: 13.5px;
+}
+.footer .content-wrapper ul li a {
+     color: var(--light-color);
+     font-size: 13px;
+     line-height: 20px;
+}
+.footer .content-wrapper ul {
+     margin-left: 0;
+}
+.footer .content-wrapper ul li {
+     margin-left: -25px;
+}
+.footer img {
+     width: 25px;
+}
+.footer .contact {
+     border-left: 5px solid rgba(0, 0, 0, 0.2);
+}
+.footer .contact .images {
+     display: flex;
+}
+.footer .contact .images img {
+     margin: 10px;
+     background: black;
+     color: white;
+}
+.footer .subscribe form input {
+     padding: 10px;
+}
+.footer .subscribe form button {
+     padding: 10px;
+     background: var(--brown);
+     border-width: 0;
+     color: var(--light-color);
+     font-weight: bold;
+     font-size: 16px;
+}
+form input::placeholder {
+     color: rgba(0, 0, 0, 0.34);
+     font-weight: bolder;
+     font-size: 16px;
+}
+.footer .social-wrapper {
+     position: relative;
+     display: flex;
+     background: #0e0e0e;
+     width: 100%;
+     align-content: center;
+     align-items: center;
+     text-align: center;
+}
+.social-wrapper .social-image {
+     background: var(--brown);
+     padding: 8px 10px;
+     margin: 0 5px;
+}
+.social-wrapper .social-images {
+     display: flex;
+     margin: 0 auto;
+}
+.copyright {
+     background-color: black;
+     margin: 0;
+     width: 100%;
+     padding: 50px 0;
+     margin-bottom: -20px;
+     text-align: center;
+     font-weight: bold;
+}
+.avebot {
+     color: var(--golden-color);
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+     /* vav bar on big screen */
+     .nav-bar .logo {
+          margin-left: 45px;
+     }
+     .section {
+          margin-bottom: 20px;
+     }
+     /* navigation */
+     .close-btn {
+          display: none;
+     }
+     .nav-bar .nav-items {
+          width: auto;
+          height: auto;
+          color: var(--dark-color);
+          background: var(--light-color);
+          position: absolute;
+          left: 15%;
+          font-size: 12px;
+     }
+     .nav-bar .button {
+          padding: 10px;
+     }
+     .nav-items ul {
+          display: flex;
+          align-items: center;
+          align-content: center;
+          text-align: center;
+          padding: 0;
+          margin: 0;
+     }
+     .nav-items ul li {
+          margin: 0;
+     }
+     .nav-bar ul li a {
+          /* padding: 8px; */
+          font-size: 1em;
+          color: black;
+          font-weight: bold;
+     }
+     .nav-bar .logo {
+          height: 50px;
+          width: 75px;
+     }
+     .nav-bar .nav-btn {
+          display: none;
+     }
+     .header .hero-text {
+          font-size: 60px;
+          line-height: 60px;
+     }
+     .header p {
+          font-size: 25px;
+     }
+     /* services */
+     .service-wrapper .service-content {
+          flex: 1 0 auto;
+          margin: 30px;
+          padding: 10px;
+          /* width: 100%; */
+          width: 250px;
+     }
+     .services img {
+          width: 70px;
+     }
+     /* portfoloio */
+     .portfolio .illustrate-wrapper .illustrate2 {
+          flex: 1;
+     }
+     .testimonial {
+          flex-flow: row;
+     }
+     .testimonial .testimonialWrapper {
+          flex-flow: row;
+          width: 70%;
+     }
+     /* .testimonial .heading,
+     .testimonial .content-wrapper {
+          margin: 0 30px;
+     } */
+     .footer {
+          margin: -20px 0;
+     }
+     .footer .contact .images {
+          flex-flow: column;
+     }
+     .footer .contact {
+          width: 400px !important;
+          padding-left: 15px;
+     }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+     .nav-bar .nav-items {
+          left: 17%;
+          font-size: 16px;
+     }
+     .header {
+          height: 500px;
+     }
+     .header .button {
+          margin-top: 100px;
+     }
+     .portfolio .illustrate-wrapper {
+          height: 300px;
+     }
+     .portfolio .illustrate-wrapper .illustrate2 .content {
+          top: 25%;
+     }
+}
