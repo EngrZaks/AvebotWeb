@@ -12,6 +12,11 @@
 .header .dots {
      position: absolute;
      top: 10px;
+     display: none;
+}
+
+.product {
+     flex-flow: row wrap;
 }
 .products {
      background: rgba(255, 206, 49, 0.24);
@@ -41,8 +46,17 @@
      margin-top: -20px;
 }
 @media only screen and (min-width: 768px) {
+     .product {
+          align-items: initial;
+          align-content: center;
+          width: 100%;
+          margin: -10px auto;
+     }
      .products {
-          padding: 80px 50px;
+          flex: 1 1 auto;
+          padding: 80px 4%;
+          margin: 10px;
+          width: 46%;
      }
      .header {
           height: 400px;

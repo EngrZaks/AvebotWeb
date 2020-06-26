@@ -85,13 +85,37 @@
 .teams {
      flex-flow: column;
      align-items: center;
+     background: var(--pink);
 }
 .teams .ourTeam {
      display: flex;
      flex-flow: row wrap;
+     height: 350px;
+     overflow-y: auto;
+     -webkit-overflow-scrolling: touch;
+     scroll-snap-type: mandatory;
+     scroll-behavior: smooth;
+}
+.teams .ourTeam .team {
+     margin: 10px 5px;
+     flex: 1 1 auto;
+     width: 140px;
+     text-align: center;
+     scroll-snap-align: start;
+}
+.teams .ourTeam .team .name {
+     margin: 0;
+     font-family: Imprima;
+     font-size: 1.1rem;
+     color: var(--golden-color);
+     font-weight: bold;
+}
+.teams .ourTeam .team .position {
+     font-family: Itim;
+     margin: 0;
 }
 .teams .ourTeam img {
-     width: 150px;
+     width: 100%;
 }
 .footer {
      margin-top: -50px;
@@ -141,6 +165,13 @@
           font-weight: bold;
           font-size: 40px;
           line-height: 30px;
+     }
+     .teams .ourTeam {
+          width: 70%;
+          padding: 10px;
+     }
+     .teams .ourTeam .team:nth-child(2) {
+          transform: translateY(-10px) scale(1.1);
      }
 }
 

@@ -1,5 +1,7 @@
 function scaleHeader() {
-     const header = document.querySelector(".header");
+     const header =
+          document.querySelector(".header") ||
+          document.querySelector(".animate");
      header.style.transform = "scale(1)";
 }
 scaleHeader(); //scale the header text
