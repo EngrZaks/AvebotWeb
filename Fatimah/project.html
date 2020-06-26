@@ -26,12 +26,32 @@
           />
      </head>
      <style>
-          .carousel-indicators li {
-               background-color: #c4c4c4;
-          }
-          .carousel-indicators li.active {
-               background-color: #f1ac33;
-          }
+        .carousel-indicators li{
+            background-color: #C4C4C4;
+        }
+        .carousel-indicators li.active{
+            background-color: #F1AC33;
+        }
+        .footer{
+            background-image: url('images/footer-dots.png');
+            background-position: 95% -5%;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            z-index: -1;
+        }
+        .client-feedback{
+            background-image: url('images/client-dots.png');
+            background-position: 0% -5%;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            z-index: 9999;
+        }
+        .form-container{
+            background-image: url('images/form-dots.png');
+            background-position: 100% 100%;
+            background-repeat: no-repeat;
+            background-size: 150px;
+        }
      </style>
      <body>
           <div class="nav-bar">
@@ -97,13 +117,31 @@
                               describe your project:
                          </p>
 
-                         <label class="label-begin"
-                              >When would you like to begin?</label
-                         ><br />
-                         <select>
-                              <option>Immediately</option>
-                              <option>Immediately</option> </select
-                         ><br />
+    <!--start a project-->
+    <!--start a project top-->
+    <div class="start-a-proj-top row">
+        <div class="col start-a-proj-top-left">
+            <h3>We’re Here to Help You</h3>
+            <p>Send us a message to learn how we help increase sales
+                and overall brand value via our updated resources, 
+                work tools and positive tested methods.
+            </p>
+            <div class="image-container">
+                <img src="images/apple.png"/><span><img src="images/phone-1.png" class="phone-1-img"/></span>
+            </div>
+            
+            <h4>Here’s what you can expect:</h4>
+            <ul>
+                <li>An email and/or phone call directly from a member of our team;</li>
+                <li>We will work together to clarify your requirements;</li>
+                <li>We will share a cost estimate;</li>
+                <li>A face to face meeting, if necessary.</li>
+            </ul>
+        </div>
+        <div class="col form-container">
+            <form action="" method="post" class="start-a-proj-form">
+                <h4>Start A Project<span><img src="images/Union.png"/></span></h4>
+                <p>Fill out short form to get started. <br/>Please describe your project:</p>
 
                          <label>How much do you want to spend?</label><br />
                          <input type="text" placeholder="Your Budget" /><br />
