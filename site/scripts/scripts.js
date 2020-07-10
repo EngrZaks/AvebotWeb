@@ -53,3 +53,7 @@ function showSlides(n) {
      slides[slideIndex - 1].style.display = "block";
      dots[slideIndex - 1].className += " active";
 }
+
+// PORTFOLIO PAGE ITEMS NAVIGATION
+// var portNavButton = document.querySelectorAll(".portNav");
+// console.log(portNavButton);
