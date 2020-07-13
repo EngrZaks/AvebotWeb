@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <title>AveBot Innovation</title>
+          <link rel="icon" type="image/png" href="files/logo1.png" />
+          <link rel="stylesheet" href="styles/styles.css" />
+          <link rel="stylesheet" href="css/project.css" />
+          <link rel="stylesheet" href="css/mediaquerystartaproject.css" />
+          <link
+               href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+               rel="stylesheet"
+          />
+          <link
+               rel="stylesheet"
+               href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+               integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+               crossorigin="anonymous"
+          />
+          <link
+               rel="stylesheet"
+               href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          />
+     </head>
+     <style>
+          .carousel-indicators li {
+               background-color: #c4c4c4;
+          }
+          .carousel-indicators li.active {
+               background-color: #f1ac33;
+          }
+          .client-feedback {
+               background: url("files/client-dots.png") no-repeat;
+               background-position: top-left;
+               background-size: 300px;
+          }
+     </style>
+     <body>
+          <div class="nav-bar">
+               <a href="index.html">
+                    <img src="files/logo.svg" alt="Our Logo" class="logo"
+               /></a>
+               <div class="nav-items">
+                    <a href="javascript:void(0)" class="close-btn">&times;</a>
+                    <ul>
+                         <li><a href="index.html"> Home </a></li>
+                         <li><a href="about.html"> About Us </a></li>
+                         <li>
+                              <a href="Products.html"> Products & Services </a>
+                         </li>
+                         <li><a href="portfolio.html"> Portfolios </a></li>
+                         <!-- <li><a href="#"> Learning Center </a></li> -->
+                         <li><a href="contact.html"> Contact Us </a></li>
+                         <a
+                              href="project.html"
+                              class="button"
+                              style="color: var(--light-color);"
+                              >START A PROJECT</a
+                         >
+                    </ul>
+               </div>
+               <img src="files/btn- menu.svg" alt="" class="nav-btn" />
+          </div>
+          <!--header in index-->
+          <div class="header" style="display: none;"></div>
+
+          <!--start a project-->
+          <!--start a project top-->
+          <div class="start-a-proj-top row">
+               <div class="col start-a-proj-top-left">
+                    <h3>We’re Here to Help You</h3>
+                    <p>
+                         Send us a message to learn how we help increase sales
+                         and overall brand value via our updated resources, work
+                         tools and positive tested methods.
+                    </p>
+                    <div class="image-container">
+                         <img src="files/apple.png" /><span
+                              ><img src="files/phone-1.png" class="phone-1-img"
+                         /></span>
+                    </div>
+
+                    <h4>Here’s what you can expect:</h4>
+                    <ul>
+                         <li>
+                              An email and/or phone call directly from a member
+                              of our team;
+                         </li>
+                         <li>
+                              We will work together to clarify your
+                              requirements;
+                         </li>
+                         <li>We will share a cost estimate;</li>
+                         <li>A face to face meeting, if necessary.</li>
+                    </ul>
+               </div>
+               <div class="col form-container">
+                    <form action="" method="post" class="start-a-proj-form">
+                         <img src="files/Union.png" alt="" />
+                         <h4>Start A Project</h4>
+                         <p>
+                              Fill out short form to get started. <br />Please
+                              describe your project:
+                         </p>
+
+                         <label class="label-begin"
+                              >When would you like to begin?</label
+                         ><br />
+                         <select>
+                              <option>Immediately</option>
+                              <option>Schedule</option> </select
+                         ><br />
+
+                         <label>How much do you want to spend?</label><br />
+                         <input type="text" placeholder="Your Budget" /><br />
+
+                         <input
+                              type="text"
+                              placeholder="Your Full Name"
+                         /><br />
+                         <input
+                              type="email"
+                              placeholder="Your E-mail Address"
+                         /><br />
+                         <input
+                              type="tel"
+                              placeholder="Your Phone Number"
+                         /><br />
+                         <input type="text" placeholder="Your Company" /><br />
+
+                         <select>
+                              <option>How would you like to discuss?</option>
+                              <option>Schedule a live video session</option>
+                              <option value=""
+                                   >phone call with an expert</option
+                              > </select
+                         ><br />
+                         <input
+                              type="text"
+                              placeholder="Your Role/Job Title?"
+                         /><br />
+
+                         <input
+                              type="submit"
+                              value="SUBMIT"
+                              class="start-a-proj-btn"
+                              style="
+                                   background: #f1ac33;
+                                   color: #fff;
+                                   padding: 5px 10px;
+                                   outline: none;
+                                   border: none;
+                              "
+                         />
+                    </form>
+               </div>
+          </div>
+          <!--clients feedback-->
+          <div class="client-feedback">
+               <h3 class="text-center client-heading">
+                    Clients <span>Feedback</span>
+               </h3>
+               <div class="line text-center">
+                    <img
+                         class="text-center"
+                         src="files/Line.png"
+                         alt=""
+                         width="100%"
+                    />
+               </div>
+               <div
+                    id="carouselExampleIndicators"
+                    class="carousel slide"
+                    data-ride="carousel"
+               >
+                    <ol class="carousel-indicators">
+                         <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="0"
+                              class="active"
+                              style="
+                                   border-radius: 50%;
+                                   height: 15px;
+                                   width: 15px;
+                              "
+                         ></li>
+                         <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="1"
+                              style="
+                                   border-radius: 50%;
+                                   height: 15px;
+                                   width: 15px;
+                              "
+                         ></li>
+                         <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="2"
+                              style="
+                                   border-radius: 50%;
+                                   height: 15px;
+                                   width: 15px;
+                              "
+                         ></li>
+                    </ol>
+                    <div class="carousel-inner auto">
+                         <div
+                              class="carousel-item active text-center start-proj-text"
+                         >
+                              <p>
+                                   ." Since the start of my career as an
+                                   Accountant, AveBot have been helping me with
+                                   all the tactical nous and to render all the
+                                   technical sophistication that i need to
+                                   succeed in the 21st Century"
+                              </p>
+                              <h4 class="name">SODIQ OYEKAN</h4>
+                              <h3 class="company">ARTSOFT INC.</h3>
+                         </div>
+                         <div class="carousel-item text-center start-proj-text">
+                              <p>
+                                   ." Since the start of my career as an
+                                   Accountant, AveBot have been helping me with
+                                   all the tactical nous and to render all the
+                                   technical sophistication that i need to
+                                   succeed in the 21st Century"
+                              </p>
+                              <h4 class="name">SODIQ OYEKAN</h4>
+                              <h3 class="company">ARTSOFT INC.</h3>
+                         </div>
+                         <div class="carousel-item text-center start-proj-text">
+                              <p>
+                                   ." Since the start of my career as an
+                                   Accountant, AveBot have been helping me with
+                                   all the tactical nous and to render all the
+                                   technical sophistication that i need to
+                                   succeed in the 21st Century"
+                              </p>
+                              <h4 class="name">SODIQ OYEKAN</h4>
+                              <h3 class="company">ARTSOFT INC.</h3>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <!--footer starts here-->
+          <div class="footer section" id="footer">
+               <div class="content-wrapper">
+                    <div class="content content1">
+                         <h4 class="heading">Company</h4>
+                         <ul>
+                              <li><a href="about.html"> About Us </a></li>
+                              <li>
+                                   <a href="Products.html">
+                                        Products & Services
+                                   </a>
+                              </li>
+                              <li><a href="portfolio.html"> Portfolios </a></li>
+                              <li><a href="#"> Learning Center </a></li>
+                              <li><a href="contact.html"> Contact Us </a></li>
+                         </ul>
+                    </div>
+                    <div class="content content2">
+                         <h4 class="heading">Services</h4>
+                         <ul>
+                              <li><a href="Products.html"> Web Design</a></li>
+                              <li>
+                                   <a href="Products.html"> Web Development</a>
+                              </li>
+                              <li>
+                                   <a href="Products.html">
+                                        Digital Marketing
+                                   </a>
+                              </li>
+                              <li><a href="Products.html"> Photography </a></li>
+                              <li>
+                                   <a href="Products.html"> Content Writing </a>
+                              </li>
+                         </ul>
+                    </div>
+                    <div class="content content3">
+                         <h4 class="heading">Latest Updates</h4>
+                         <ul>
+                              <li><a href="#footer"> Blog </a></li>
+                              <li>
+                                   <a href="index.html#testimonial">
+                                        Customers Reviews
+                                   </a>
+                              </li>
+                              <li>
+                                   <a href="about.html#team"> Executive Team</a>
+                              </li>
+                              <li><a href="#footer"> Training </a></li>
+                              <li><a href="#"> </a></li>
+                         </ul>
+                    </div>
+                    <div class="content contact">
+                         <h4 class="heading">CONTACT US</h4>
+                         <div class="items">
+                              <div class="location item">
+                                   <img
+                                        src="files/location.svg"
+                                        alt="location"
+                                   />
+                                   <p>10, Awofodu Street Pedro-Bariga Lagos</p>
+                              </div>
+                              <div class="mail item">
+                                   <a href="mailto:info@avebot.com.ng">
+                                        <img src="files/mail.svg" alt="mail"
+                                   /></a>
+                                   <p>info@avebot.com.ng</p>
+                              </div>
+                              <div class="phone item">
+                                   <a href="tel:07032427299">
+                                        <img src="files/phone.svg" alt="tel"
+                                   /></a>
+                                   <p>07032427299</p>
+                              </div>
+                         </div>
+                         <div class="subscribe">
+                              <h4 class="heading">
+                                   Subscribe to our news letter
+                              </h4>
+                              <form action="">
+                                   <input
+                                        type="text"
+                                        name="subscribe"
+                                        id=""
+                                        placeholder="Email"
+                                   />
+                                   <button>SUBSCRIBE</button>
+                              </form>
+                         </div>
+                    </div>
+               </div>
+               <div class="social-wrapper">
+                    <div class="social-images">
+                         <div class="social-image">
+                              <a
+                                   href="https://www.instagram.com/avebotinnovation/"
+                                   target="blank"
+                              >
+                                   <img src="files/instan.svg" alt="instagram"
+                              /></a>
+                         </div>
+                         <div class="social-image">
+                              <a
+                                   href="https://web.facebook.com/Avebot-Innovation-111981167246474/"
+                                   ><img
+                                        src="files/facebookn.svg"
+                                        alt="facebook"
+                              /></a>
+                         </div>
+                         <div class="social-image">
+                              <img src="files/twittern.svg" alt="twitter" />
+                         </div>
+                         <div class="social-image">
+                              <img src="files/linkedinn.svg" alt="linkedin" />
+                         </div>
+                    </div>
+               </div>
+               <div class="copyright">
+                    © 2020 Copyright
+                    <span class="avebot"> avebotInnovations</span>
+               </div>
+          </div>
+
+          <script src="scripts/scripts.js"></script>
+          <script
+               src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+               integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+               crossorigin="anonymous"
+          ></script>
+          <script
+               src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+               integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+               crossorigin="anonymous"
+          ></script>
+          <script
+               src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+               integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+               crossorigin="anonymous"
+          ></script>
+     </body>
+</html>

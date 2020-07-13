@@ -1,0 +1,340 @@
+@media (max-width:900px) and (min-width:768px){
+    /*top*/
+    .start-a-proj-top{
+        height:450px;
+    }
+    .start-a-proj-top-left{
+        margin-top: 85px;
+    }
+    .start-a-proj-top-left h3{
+        font-size: 35px;
+        line-height: 43px;
+    }
+    .start-a-proj-form p{
+        font-size: 26px;
+        line-height: 25px;
+    }
+    .start-a-proj-top-left img{
+        width:300px;
+        margin-top:80px;
+        padding-left:30px;
+    }
+    .start-a-proj-top-left h4{
+        margin-top:100px;
+    }
+    .start-a-proj-top-left ul li{
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 159.5%;
+        letter-spacing: 0.02em;
+        color: #201E1E;
+    }
+
+    /*form*/
+    .start-a-proj-form{
+        padding:15px;
+        width:90%;
+        margin-top: -25px;
+    }
+    .start-a-proj-form h4{
+        font-size: 26px;
+    }
+    .start-a-proj-form p{
+        font-size: 20px;
+    }
+    .start-a-proj-form input, select{
+        font-size: 18px;
+        margin:8px 0px;
+    }
+    .start-a-proj-form input, select, option{
+        padding:8px;
+        height:50px;
+    }
+    label{
+        font-size: 18px;
+    }
+    .label-begin{
+        margin-top:100px;
+    }
+    
+    /*clients*/
+    .client-feedback{
+        margin-top:700px;
+    }
+    .client-heading{
+        font-size: 30px;
+    }
+    .start-proj-text p{
+        font-size: 28px;
+    }
+    .start-proj-text .name{
+        font-size: 26px;
+        margin:18px 0px;
+    }
+    .start-proj-text .company{
+        font-size: 26px;
+        margin-bottom: 60px;
+    }
+}
+
+
+@media (max-width:767px) and (min-width:600px){
+    /*top*/
+ 
+    .start-a-proj-top{
+        flex-direction: column;
+        height: 900px;
+    }
+    .start-a-proj-top-left{
+        margin-top: 90px;
+    }
+    .start-a-proj-top-left h3{
+        font-size: 32px;
+        padding:0px 50px;
+    }
+    .start-a-proj-top-left p{
+        padding:0px 50px;
+    }
+    .start-a-proj-top-left img{
+        width:350px;
+        margin: auto;
+        text-align: center;
+        margin-top:60px;
+        padding:0;
+    }
+    .image-container{
+        text-align: center;
+    }
+    .phone-1-img{
+        display: none;
+    }
+    .start-a-proj-top-left h4{
+        margin-top:100px;
+        color:#fff;
+    }
+    .start-a-proj-top-left ul li{
+        font-size: 18px;
+        color:#fff;
+    }
+
+    /*form*/
+
+    .start-a-proj-form{
+        padding:20px;
+        width:97.5%;
+        margin-top:-50px;
+    }
+    .start-a-proj-form h4{
+        font-size: 26px;
+    }
+    .start-a-proj-form p{
+        font-size: 20px;
+    }
+    .start-a-proj-form input, select{
+        font-size: 20px;
+        margin:7px 0px;
+    }
+    .start-a-proj-form input, select, option{
+        padding:7px;
+        height:45px;
+    }
+    label{
+        font-size: 20px;
+    }
+    .label-begin{
+        margin-top:90px;
+    }
+    
+    /*clients*/
+    .client-feedback{
+        margin-top:900px;
+    }
+    .client-heading{
+        font-size: 28px;
+    }
+    .start-proj-text p{
+        font-size: 26px;
+    }
+    .start-proj-text .name{
+        font-size: 24px;
+        margin:18px 0px;
+    }
+    .start-proj-text .company{
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width:599px) and (min-width:480px){
+    /*top*/
+    .start-a-proj-top{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .start-a-proj-top-left{
+        margin-top: 95px;
+    }
+    .start-a-proj-top-left h3{
+        font-size: 32px;
+        padding:0px 50px;
+    }
+    .start-a-proj-top-left p{
+        padding:0px 50px;
+    }
+    .image-container{
+        text-align: center;
+    }
+    .phone-1-img{
+        display: none;
+    }
+    .start-a-proj-top-left img{
+        width:300px;
+        padding:0px;
+        margin-top:60px;
+    }
+    .start-a-proj-top-left h4{
+        margin-top:100px;
+    }
+    .start-a-proj-top-left ul li{
+        font-size: 18px;
+        color:#fff;
+    }
+
+    /*form*/
+    .start-a-proj-form{
+        padding:10px;
+        width:97%;
+        margin-top:0px;
+    }
+    .start-a-proj-form h4{
+        font-size: 26px;
+    }
+    .start-a-proj-form p{
+        font-size: 20px;
+    }
+    .start-a-proj-form input, select{
+        font-size: 20px;
+        margin:7px 0px;
+    }
+    .start-a-proj-form input, select, option{
+        padding:7px;
+        height:45px;
+    }
+    label{
+        font-size: 20px;
+    }
+    .label-begin{
+        margin-top:90px;
+    }
+    
+    /*clients*/
+    .client-feedback{
+        margin-top:860px;
+    }
+    .client-heading{
+        font-size: 26px;
+    }
+    .start-proj-text p{
+        font-size: 24px;
+    }
+    .start-proj-text .name{
+        font-size: 22px;
+        margin:18px 0px;
+    }
+    .start-proj-text .company{
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+@media (max-width:479px) and (min-width:320px){
+    /*top*/
+    .start-a-proj-top{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .start-a-proj-top-left{
+        margin-top: 95px;
+    }
+    .start-a-proj-top-left h3{
+        font-size: 32px;
+        padding:0px 30px;
+    }
+    .start-a-proj-top-left p{
+        padding:0px 30px;
+    }
+    .image-container{
+        text-align: center;
+        display: block;
+    }
+    .phone-1-img{
+        display: none;
+    }
+    .start-a-proj-top-left img{
+        width:200px;
+        padding:0px;
+        margin-top:60px;
+    }
+    .start-a-proj-top-left h4{
+        margin-top:100px;
+        color:#fff;
+        padding:0px 30px;
+    }
+    .start-a-proj-top-left ul{
+        padding:0px 30px;
+    }
+    .start-a-proj-top-left ul li{
+        font-size: 18px;
+        color:#fff;
+    }
+
+    /*form*/
+    .start-a-proj-form{
+        padding:25px;
+        width:97%;
+        margin-top:0px;
+    }
+    .start-a-proj-form h4{
+        font-size: 26px;
+    }
+    .start-a-proj-form p{
+        font-size: 20px;
+    }
+    .start-a-proj-form input, select{
+        font-size: 20px;
+        margin:7px 0px;
+    }
+    .start-a-proj-form input, select, option{
+        padding:7px;
+        height:45px;
+    }
+    label{
+        font-size: 20px;
+    }
+    .label-begin{
+        margin-top:90px;
+    }
+    
+    /*clients*/
+    .client-feedback{
+        margin-top:860px;
+    }
+    .client-heading{
+        font-size: 24px;
+    }
+    .start-proj-text p{
+        font-size: 22px;
+    }
+    .start-proj-text .name{
+        font-size: 20px;
+        margin:18px 0px;
+    }
+    .start-proj-text .company{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+}
+

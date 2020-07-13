@@ -139,9 +139,6 @@
      background: var(--light-color);
      border-radius: 10px;
 }
-.footer {
-     margin-top: -50px;
-}
 
 @media only screen and (min-width: 768px) {
      .header {
@@ -187,6 +184,7 @@
           font-weight: bold;
           font-size: 40px;
           line-height: 30px;
+          margin-right: 20px;
      }
      .teams .ourTeam {
           width: 70%;

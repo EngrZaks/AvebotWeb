@@ -7,6 +7,7 @@
                content="width=device-width, initial-scale=1.0"
           />
           <title>AveBot Innovation</title>
+          <link rel="icon" type="image/png" href="files/logo1.png" />
           <link rel="stylesheet" href="styles/styles.css" />
           <link rel="stylesheet" href="styles/about.css" />
           <link
@@ -17,7 +18,9 @@
 
      <body>
           <div class="nav-bar">
-               <img src="files/logo.svg" alt="Our Logo" class="logo" />
+               <a href="index.html">
+                    <img src="files/logo.svg" alt="Our Logo" class="logo"
+               /></a>
                <div class="nav-items">
                     <a href="javascript:void(0)" class="close-btn">&times;</a>
                     <ul>
@@ -95,10 +98,10 @@
                     Starting a business can be hard but with our team in place
                     for you, we can help build you business from it’s foundation
                </p>
-               <div class="button">WHY WORK WITH US ?</div>
+               <a href="#why" class="button">WHY WORK WITH US ?</a>
           </div>
 
-          <div class="why section">
+          <div class="why section" id="why">
                <div class="content">
                     <div class="heading">
                          <h2>WHY WORK</h2>
@@ -112,10 +115,10 @@
                          </p>
                     </div>
                </div>
-               <div class="button">OUR CLIENTS</div>
+               <a href="#client" class="button">OUR CLIENTS</a>
           </div>
 
-          <div class="teams teamsMain section">
+          <div class="teams teamsMain section" id="team">
                <h2>OUR TEAM</h2>
                <div class="ourTeam">
                     <div class="team">
@@ -149,11 +152,6 @@
                          <p class="position">Media Developer</p>
                     </div>
                     <div class="team">
-                         <img src="files/David.png" alt="David" />
-                         <p class="name">Ariwodola David</p>
-                         <p class="position">IT Coordinator</p>
-                    </div>
-                    <div class="team">
                          <img src="files/Oyin.png" alt="Oyin_photographer" />
                          <p class="name">Hamzat Oyindamila</p>
                          <p class="position">Photographer</p>
@@ -166,7 +164,7 @@
                </div>
           </div>
 
-          <div class="teams clients section">
+          <div class="teams clients section" id="client">
                <h2>OUR CLIENTS</h2>
                <div class="ourTeam">
                     <div class="team">
@@ -190,15 +188,7 @@
                </div>
           </div>
 
-          <div class="project section">
-               <p>Sound Interesting?</p>
-               <h2>Let’s build together</h2>
-               <div class="button">
-                    GET IN TOUCH <img src="files/arrow.svg" alt="" />
-               </div>
-          </div>
-
-          <div class="footer section">
+          <div class="footer section" id="footer">
                <div class="content-wrapper">
                     <div class="content content1">
                          <h4 class="heading">Company</h4>
@@ -217,20 +207,34 @@
                     <div class="content content2">
                          <h4 class="heading">Services</h4>
                          <ul>
-                              <li><a href=""> Web Design</a></li>
-                              <li><a href=""> Web Development</a></li>
-                              <li><a href="#"> Digital Marketing </a></li>
-                              <li><a href="#"> Photography </a></li>
-                              <li><a href="#"> Content Writing </a></li>
+                              <li><a href="Products.html"> Web Design</a></li>
+                              <li>
+                                   <a href="Products.html"> Web Development</a>
+                              </li>
+                              <li>
+                                   <a href="Products.html">
+                                        Digital Marketing
+                                   </a>
+                              </li>
+                              <li><a href="Products.html"> Photography </a></li>
+                              <li>
+                                   <a href="Products.html"> Content Writing </a>
+                              </li>
                          </ul>
                     </div>
                     <div class="content content3">
                          <h4 class="heading">Latest Updates</h4>
                          <ul>
-                              <li><a href=""> Blog </a></li>
-                              <li><a href=""> Customers Reviews </a></li>
-                              <li><a href="#"> Executive Team</a></li>
-                              <li><a href="#"> Training </a></li>
+                              <li><a href="#footer"> Blog </a></li>
+                              <li>
+                                   <a href="index.html#testimonial">
+                                        Customers Reviews
+                                   </a>
+                              </li>
+                              <li>
+                                   <a href="about.html#team"> Executive Team</a>
+                              </li>
+                              <li><a href="#footer"> Training </a></li>
                               <li><a href="#"> </a></li>
                          </ul>
                     </div>
@@ -238,17 +242,22 @@
                          <h4 class="heading">CONTACT US</h4>
                          <div class="items">
                               <div class="location item">
-                                   <img src="files/location.svg" alt="location" />
+                                   <img
+                                        src="files/location.svg"
+                                        alt="location"
+                                   />
                                    <p>10, Awofodu Street Pedro-Bariga Lagos</p>
                               </div>
                               <div class="mail item">
                                    <a href="mailto:info@avebot.com.ng">
-                                        <img src="files/mail.svg" alt="mail" /></a>
+                                        <img src="files/mail.svg" alt="mail"
+                                   /></a>
                                    <p>info@avebot.com.ng</p>
                               </div>
                               <div class="phone item">
                                    <a href="tel:07032427299">
-                                        <img src="files/phone.svg" alt="tel" /></a>
+                                        <img src="files/phone.svg" alt="tel"
+                                   /></a>
                                    <p>07032427299</p>
                               </div>
                          </div>
@@ -257,34 +266,56 @@
                                    Subscribe to our news letter
                               </h4>
                               <form action="">
-                                   <input type="text" name="subscribe" id="" placeholder="Email" />
+                                   <input
+                                        type="text"
+                                        name="subscribe"
+                                        id=""
+                                        placeholder="Email"
+                                   />
                                    <button>SUBSCRIBE</button>
                               </form>
                          </div>
                     </div>
-                    </div>
-                    <div class="social-wrapper">
-                         <div class="social-images">
-                              <div class="social-image">
-                                   <a href="https://www.instagram.com/avebotinnovation/" target="blank">
-                                        <img src="files/instan.svg" alt="instagram" /></a>
-                              </div>
-                              <div class="social-image">
-                                   <a href="#"><img src="files/facebookn.svg" alt="facebook" /></a>
-                              </div>
-                              <div class="social-image">
-                                   <img src="files/twittern.svg" alt="twitter" />
-                              </div>
-                              <div class="social-image">
-                                   <img src="files/linkedinn.svg" alt="" />
-                              </div>
+               </div>
+               <div class="social-wrapper">
+                    <div class="social-images">
+                         <div class="social-image">
+                              <a
+                                   href="https://www.instagram.com/avebotinnovation/"
+                                   target="blank"
+                              >
+                                   <img src="files/instan.svg" alt="instagram"
+                              /></a>
+                         </div>
+                         <div class="social-image">
+                              <a
+                                   href="https://web.facebook.com/Avebot-Innovation-111981167246474/"
+                                   target="blank"
+                                   ><img
+                                        src="files/facebookn.svg"
+                                        alt="facebook"
+                              /></a>
+                         </div>
+                         <div class="social-image">
+                              <img src="files/twittern.svg" alt="twitter" />
+                         </div>
+                         <div class="social-image">
+                              <img src="files/linkedinn.svg" alt="linkedin" />
                          </div>
                     </div>
-                    <div class="copyright">
-                         © 2020 Copyright
-                         <span class="avebot"> avebotInnovations</span>
-                    </div>
                </div>
+               <div class="copyright">
+                    © 2020 Copyright
+                    <span class="avebot"> avebotInnovations</span>
+               </div>
+          </div>
+
+          <div class="project section">
+               <p>Sound Interesting?</p>
+               <h2>Let’s build together</h2>
+               <a href="contact.html" class="button">
+                    GET IN TOUCH <img src="files/arrow.svg" alt="" />
+               </a>
           </div>
 
           <script src="scripts/scripts.js"></script>
