@@ -102,17 +102,25 @@
                     <form action="" method="post" class="start-a-proj-form">
                          <img src="files/Union.png" alt="" />
                          <h4>Start A Project</h4>
-                         <p>
-                              Fill out short form to get started. <br />Please
-                              describe your project:
-                         </p>
-
-                         <label class="label-begin"
-                              >When would you like to begin?</label
-                         ><br />
+                         <p>Fill out short form to get started. <br /></p>
+                         <label for="describe" class="label-begin"
+                              >Please describe your project:
+                              <textarea
+                                   name="describe"
+                                   id=""
+                                   cols="15"
+                                   rows="5"
+                              ></textarea>
+                         </label>
+                         <label></label><br />
                          <select>
+                              <option value="">
+                                   When would you like to begin?
+                              </option>
                               <option>Immediately</option>
-                              <option>Schedule</option> </select
+                              <option>2 - 4 hours time</option>
+                              <option value=""> 1 - 2 days time</option>
+                              <option value="">Not yet</option> </select
                          ><br />
 
                          <label>How much do you want to spend?</label><br />
@@ -134,10 +142,10 @@
 
                          <select>
                               <option>How would you like to discuss?</option>
-                              <option>Schedule a live video session</option>
-                              <option value=""
-                                   >phone call with an expert</option
-                              > </select
+                              <option>phone</option>
+                              <option value="">Email</option>
+                              <option value="">Meeting</option>
+                              <option value="">Video call</option> </select
                          ><br />
                          <input
                               type="text"

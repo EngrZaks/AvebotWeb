@@ -102,7 +102,8 @@ body {
      color: #201e1e;
 }
 .start-a-proj-form input,
-select {
+select,
+textarea {
      font-weight: normal;
      font-size: 26px;
      letter-spacing: 0.02em;
@@ -111,6 +112,8 @@ select {
      outline: none;
      border: none;
      color: #000;
+}
+.start-a-proj-form textarea {
 }
 .start-a-proj-form input,
 select,
@@ -128,7 +131,7 @@ label {
      color: #201e1e;
 }
 .label-begin {
-     margin-top: 120px;
+     margin-top: 20px;
 }
 
 /*clients*/
@@ -168,5 +171,14 @@ label {
      .start-a-proj-form img {
           top: 35px;
           right: 35px;
+     }
+     .label-begin {
+          margin-top: 20px;
+     }
+}
+
+@media (max-width: 992px) {
+     .label-begin {
+          margin-top: 20px !important;
      }
 }

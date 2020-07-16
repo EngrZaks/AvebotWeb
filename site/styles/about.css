@@ -95,6 +95,7 @@
      -webkit-overflow-scrolling: touch;
      scroll-snap-type: mandatory;
      scroll-behavior: smooth;
+     justify-content: center;
 }
 .teams .ourTeam .team {
      margin: 10px 5px;
@@ -224,7 +225,7 @@
      .teams .ourTeam .team {
           padding: 10px;
           width: 200px;
-          max-width: none;
+          /* max-width: none; */
      }
 }
 
